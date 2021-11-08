@@ -23,7 +23,6 @@ const categorys = (state = initital, action) => {
 
 const categorysReducer = {
     categorys
-
 }
 
 export default categorysReducer;
