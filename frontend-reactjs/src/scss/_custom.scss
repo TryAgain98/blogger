@@ -1,309 +1,361 @@
 // Here you can add other styles
 .active-page {
-    background-color: #0000001f;
-    color: red;
-    cursor: pointer;
+  background-color: #0000001f;
+  color: red;
+  cursor: pointer;
 }
+
 .page {
-    border: 1px solid #0000001f;
-    padding: 4px 10px;
-    cursor: pointer;
+  border: 1px solid #0000001f;
+  padding: 4px 10px;
+  cursor: pointer;
 }
+
 .page:hover {
-    border: 1px solid #00000049;
-    cursor: pointer;
+  border: 1px solid #00000049;
+  cursor: pointer;
 }
 
 .simplebar-scollbar {
-    width: 3px !important;
-    background-color: darkgrey !important;
+  width: 3px !important;
+  background-color: darkgrey !important;
 }
+
 .uploadFile-image {
-    width: 60px;
-    height: 60px;
-    border-radius: 100%;
-    background-color: darkgrey;
-    cursor: pointer;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background-color: darkgrey;
+  cursor: pointer;
 }
 
 .uploadFile {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .selectFile {
-    width: 60px;
-    height: 25px;
-    border: 1px solid darkgrey;
-    text-align: center;
-    margin: 0px 3px;
-    cursor: pointer;
-    border-radius: 2px;
+  width: 60px;
+  height: 25px;
+  border: 1px solid darkgrey;
+  text-align: center;
+  margin: 0px 3px;
+  cursor: pointer;
+  border-radius: 2px;
 }
 
 .icon_nav {
-    width: 47px;
-    padding-right: 8px;
+  width: 47px;
+  padding-right: 8px;
 }
 
 .search_input {
-    width: 400px;
+  width: 400px;
 }
 
 .avatar_logo {
-    width: 50px;
-    height: 50px;
-    border-radius: 100%;
-    background-color: aquamarine;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: aquamarine;
 }
+
 .radio_check {
-    width: 25px;
-    height: 25px;
+  width: 25px;
+  height: 25px;
 }
 
 .isHot {
-    text-align: center;
+  text-align: center;
 }
 
 .Image_Title {
-    width: 120px;
-    height: 90px;
-    border: 1px solid #0000001f;
-    background-color: beige;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border-radius: 5px;
+  width: 120px;
+  height: 90px;
+  border: 1px solid #0000001f;
+  background-color: beige;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5px;
 }
+
 .Image_Title_Cover {
-    width: 125px;
-    height: 95px;
-    border: 1px solid #0000001f;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 125px;
+  height: 95px;
+  border: 1px solid #0000001f;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 // css App client
 
 .cssApp_content {
-    height: 100vh;
-    width: 100vw;
+  height: 100vh;
+  width: 100vw;
 }
 
 //  css herder App Client
 .style_conten_header {
-    position: fixed;
+  position: fixed;
 }
 
 .header_cleint {
-    height: 70px;
-    background-color: #009cd7;
-    width: 100vw;
+  height: 70px;
+  background-color: #009cd7;
+  width: 100vw;
 }
 
 .headerName_client {
-    color: white;
+  color: white;
 }
 
 .Search_icon {
-    width: 70px;
-    height: 20px;
-    border: 2px solid white;
-    border-radius: 5rem;
-    background-color: white;
-    font-size: 10px;
-    cursor: pointer;
+  width: 70px;
+  height: 20px;
+  border: 2px solid white;
+  border-radius: 5rem;
+  background-color: white;
+  font-size: 10px;
+  cursor: pointer;
 }
 
 .style_icon {
-    color: white;
+  color: white;
 }
 
 .icon_user {
-    text-align: center;
-    color: white;
-    font-size: 20px;
-    cursor: pointer;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
 }
 
 // css input search
 
 .hidden {
-    display: none;
+  display: none;
 }
 
 .style_divSearch_true {
-    width: 80px;
-    height: 100%;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 80px;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 .style_divSearch_false {
-    width: 80px;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 80px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 .content_input {
-    background-color: white;
+  background-color: white;
 }
 
 //  css foorter
 
 .style_foorter {
-    width: 100vw;
-    padding: 0px 100px;
-    font-size: 13px;
+  width: 100vw;
+  padding: 0px 100px;
+  font-size: 13px;
 }
 
 // css name  Category
 
 .name_category {
-    height: 30px;
-    font-weight: bolder;
-    background-color: white;
-    width: 100vw;
-    justify-content: center;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  height: 30px;
+  font-weight: bolder;
+  background-color: white;
+  width: 100vw;
+  justify-content: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
 .name-list-category {
-    text-decoration: none;
-    color: rgba(0, 0, 0, 0.562);
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.562);
 }
+
 // css content hot post
 
 .style_content {
-    margin-top: 25px;
-    background-color: #f7f7f7;
+  margin-top: 25px;
+  background-color: #f7f7f7;
+}
+
+.style_content-search {
+  margin-top: 25px;
+  background-color: #f7f7f7;
+}
+
+.content-post-search {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: #f7f7f7;
 }
 
 .style_hot_name {
-    padding: 4px 0;
-    font-weight: bolder;
-    font-size: 20px;
+  padding: 4px 0;
+  font-weight: bolder;
+  font-size: 20px;
 }
 
 .style_div_content_hot {
-    width: 660px;
+  width: 660px;
 }
 
 // css  post hot
 
 .style_div_postHot {
-    width: 300px;
+  width: 300px;
 
-    margin: 0px 10px;
-    height: 100vh;
-    background-color: white;
+  margin: 0px 10px;
+  height: 100vh;
+  background-color: white;
 }
 
 .style_div_post_hot {
-    padding: 10px;
-    border-bottom: 2px solid #80747838;
-    font-size: 10px;
-    font-weight: bolder;
+  padding: 10px;
+  border-bottom: 2px solid #80747838;
+  font-size: 10px;
+  font-weight: bolder;
 }
 
 .especially-pageHome {
-    width: 390px;
-    font-size: 15px !important;
+  width: 390px;
+  font-size: 15px !important;
 }
 
 .component-content {
-    justify-content: center;
+  justify-content: center;
 }
 
 .component-ishot {
-    width: 560px;
-    font-size: 14px;
-    font-weight: bolder;
-    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  width: 560px;
+  font-size: 14px;
+  font-weight: bolder;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 
 .name-category-content {
-    padding: 10px 192px;
+  padding: 10px 192px;
 }
 
 //  css page post
 
 .categoryTrue {
-    color: cadetblue;
+  color: cadetblue;
 }
 
 .content-post {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: #f7f7f7;
 }
 
 .content-post-center {
-    width: 1020px;
+  width: 1020px;
+}
+
+.content-post-center-input {
+  width: 850px;
 }
 
 .information-blog {
-    width: 338px;
-    margin-left: 10px;
-    background-color: white;
-    height: 170px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 338px;
+  margin-left: 10px;
+  background-color: white;
+  height: 170px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .image-user-blog {
-    width: 55px;
-    height: 55px;
-    border-radius: 100%;
-    border: 1px solid #389b9b5e;
+  width: 55px;
+  height: 55px;
+  border-radius: 100%;
+  border: 1px solid #389b9b5e;
 }
 
 // css viwe post
 
 .post-like-button {
-    background-color: #009cd7;
-    border-radius: 5px;
-    color: white;
-    border: none;
-    height: 30px;
+  background-color: #009cd7;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  height: 30px;
 }
 
 .post-like {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #f7f7f7;
-    margin: 15px;
-    height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f7f7f7;
+  margin: 15px;
+  height: 50px;
 }
 
 .post-content-viwe {
-    font-size: 15px !important;
-    width: 667px;
-    word-break: break-all !important;
+  font-size: 15px !important;
+  width: 667px;
+  word-break: break-all !important;
 }
 
 .Read-more {
-    height: 50px;
-    background-color: #f7f7f786;
-    margin: 5px;
-    display: flex;
-    align-items: center;
-    border-top:  1px solid #009cd7;
+  height: 50px;
+  background-color: #f7f7f786;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #009cd7;
 }
 
 
 // css  header 
 
 .global-post-category {
-    font-size: 30px;
-    color: white;
-    font-weight: 900;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  font-size: 30px;
+  color: white;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
+}
+
+
+// scc route Tim kiem 
+
+.component-find-search {
+  padding: 10px 15px;
+  border-bottom: 1px solid skyblue;
+}
+
+.position-acount {
+  display: flex;
+  justify-content: end;
+  margin: -8px 31px;
+
+}
+
+.acount {
+  background-color: #f0f3ec;
+  width: 120px;
+  border: 1px solid rgba(136, 109, 109, 0.525);
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.acount-items {
+  background-color: white;
+  border-bottom: 1px solid #80747838;
 }

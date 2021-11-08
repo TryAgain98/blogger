@@ -32,7 +32,6 @@ exports.findAll = (req, res) => {
             }
         ],
         where: condition, limit, offset,
-        // group: ['posts.postCategoryId']
     })
         .then(data => {
             const response = getPagingData(data, page, limit);

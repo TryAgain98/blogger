@@ -4,7 +4,7 @@ const initital = {
     items:[]
 }
 
-const categorysReducer = (state = initital, action) => {
+const categorys = (state = initital, action) => {
     switch (action.type) {
         case ADD_CATEGORY:
           return {
@@ -21,6 +21,9 @@ const categorysReducer = (state = initital, action) => {
     }
 }
 
+const categorysReducer = {
+    categorys
 
+}
 
 export default categorysReducer;
